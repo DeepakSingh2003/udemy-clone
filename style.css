@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar
+{
+    display: flex;
+   
+    padding: 1rem;
+    align-items: center;
+    gap: 12px;
+    
+}
+.logo img
+{
+    width: 6rem;
+}
+.search
+{
+    border: 1px solid black;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 15px;
+    
+
+}
+.search input
+{
+    border: none;
+    outline: none;
+}
+.price
+{
+    display: flex;
+    gap: 13px;
+}
+.login{
+    display: flex;
+    margin-left: 15px;
+}
+.price i
+{
+    font-size: 1.4rem;
+    margin-left: 12px;
+}
+.searchc
+{
+    padding: 1rem;
+}
+.login
+{
+    gap: 12px;
+}
+.login1
+{
+    border: 1px solid;
+    padding: 13px;
+}
+#sign
+{
+    background-color: black;
+    color: white;
+}
+.herosection
+{
+    background-image: url("Screenshot 2024-09-21 120026.png");
+    background-repeat: no-repeat;
+    height: 22rem;
+    width: 78.9rem;
+    background-size: cover;
+   
+}
+.hcontent
+{
+    margin-top: 4rem;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+.web
+{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    margin-top: 1rem;
+    margin-left: 32px;
+    margin-right: 12px;
+   line-height: 52px;
+}
+#w1{
+    border-bottom: 2px solid black;
+    
+}
+#w1 p
+{
+    font-weight: 900;
+}
+.cdetails{
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.c1
+{
+    background-color: black;
+    color: white;
+    width: 12rem;
+    border-radius: 20px;
+    height: 4rem;
+}
+.c1content
+{
+    padding: 0.8rem;
+    text-align: center;
+}
+#c1
+{
+    background-color: #D1D7DC;
+    color: black;
+}
+.card img
+{
+    width: 18rem;
+    height: 11rem;
+    border-radius: 8px;
+}
+.card
+{
+    box-shadow: 0px 0px 2px;
+    width: 18rem;
+    height: 24rem;
+    border-radius: 8px;
+    
+}
+.cards
+{
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    
+    background-color: #F7F9FA;
+}
+.showall{
+    background-color: #F7F9FA;
+    height: 5rem;
+}
+.cardcontent h3{
+    margin-left: 17px;
+}
+.rating{
+    display: flex;
+    margin-left: 17px;
+}
+.name{
+    margin-left: 17px;
+    margin-top: 12px;
+}
+.rating i
+{
+    color: goldenrod;
+    margin-left: 5px;
+}
+.bestseller
+{
+    margin-left: 17px;
+    line-height: 2rem;
+}
+.bestseller button
+{
+    background-color: yellow;
+    border: none;
+    width: 5rem;
+    height: 1.4rem;
+}
+.cc{
+    line-height: 27px;
+}
+.bestseller p
+{
+    font-weight: 900;
+    font-size: 20px;
+}
+.webc{
+    border: 1px solid;
+    width: 19rem;
+    height: 3rem;
+    margin-left: 3rem;
+    
+}
+.webc h3{
+    padding: 0.8rem;
+}
+.blogo img{
+    width: 4rem;
+}
+.blogo{
+    display: flex;
+    margin-left: 3rem;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+.brand
+{
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    height: 12rem;
+    
+}
+
+.blogo img{
+    margin-left:22px ;
+}
+.glogo img
+{
+    width: 5rem;
+}
+.gcard{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.gh{
+    margin-left: 2rem;
+}
+.gc{
+    border: 1px solid purple;
+    width: 28rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border-left: 15px solid purple;
+}
+.gc1 p
+{
+    margin-top: 12px;
+}
+.g{
+    display: flex;
+    
+}
+.gimg img
+{
+    width:35rem;
+    margin-top: 42px;
+    margin-left: 5rem;
+}
+.ag{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.user{
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+}
+.check{
+    display: flex;
+}
+.checkc{
+    margin-left: 12px;
+}
+.agcard{
+    box-shadow: 0px 0px 4px;
+    width: 24rem;
+    height: 35rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+   
+
+    
+    
+}
+.pp{
+    background-color: #F7F9FA;
+    border-top: 9px solid purple;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.agc{
+    padding: 1rem;
+    line-height: 2rem;
+}
+.agc button{
+    background-color: #2D2F31;
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 21rem;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+.rsign i
+{
+    color: green;
+    padding: 1rem;
+}
+.check{
+    line-height: 2rem;
+}
+.agcards{
+    display: flex;
+    margin-top: 2rem;
+}
+.ag p
+{
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+.focusgoal{
+    background-color: #F7F9FA;
+    height: 54rem;
+}
+.gh h1{
+    padding: 1.3rem;
+    
+}
+.stackflow img{
+    width: 8rem;
+}
+.rcard1{
+    width: 17rem;
+   box-shadow: 0px 0px 2px;
+  height: 16rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.rcard1 i{
+    font-size: 1.8rem;
+}
+.rcard1 p{
+    margin-top: 12px;
+}
+.rcard1 a{
+    text-decoration: none;
+}
+.stackflow{
+    margin-top: 12px;
+    line-height: 12px;
+}
+.vmore{
+    margin-top: 28px;
+}
+.reviewcards{
+    display: flex;
+    padding: 1rem;
+    gap: 15px;
+}
+.rh{
+    padding: 2rem;
+}
+.reviews{
+    background-color: #F7F9FA;
+   margin-top: 3rem;
+   height: 29rem;
+}
+.toptrands{
+    display: flex;
+    align-items: center;
+    margin-top: -5rem;
+}
+.toptrands img{
+       width: 63rem;
+       margin-top: 4rem;
+}
+.ttc{
+   margin-left: 1rem;
+}
+.ttc p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.ttc button
+{
+     width: 10rem;
+     padding: 0.8rem;
+     margin-top: 22px;
+     background-color: white;
+    border: 1px solid;
+    font-weight: 800;
+    font-size: 15px;
+}
+footer{
+    background-color: #2D2F31;
+}
+.fd1{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    align-items: center;
+}
+.fdc{
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.fdc a{
+    text-decoration: none;
+}
+.fdc p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.fdl1{
+    display: flex;
+    gap: 17px;
+    margin-left: 3rem;
+}
+.fd2{
+    display: flex;
+    padding: 2rem;
+    gap: 8rem;
+}
+.f1 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+.f1 a:hover{
+    text-decoration: underline;
+}
+.f1{
+    line-height: 2rem;
+    padding-left: 3rem;
+}
+.lan{
+    display: flex;
+    color: white;
+    gap: 7px;
+    border: 1px solid white;
+    height: 2.3rem;
+    width: 8rem;
+   justify-content: center;
+   margin-left: 7rem;
+   align-items: center;
+   
+}
+.fd3{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 2rem;
+    gap: 60rem;
+}
+.fd3 img{
+    width: 5rem;
+    
+}
